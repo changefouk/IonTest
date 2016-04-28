@@ -12,7 +12,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="GET HTML"
+        android:text="GET text"
         android:id="@+id/myButton"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"

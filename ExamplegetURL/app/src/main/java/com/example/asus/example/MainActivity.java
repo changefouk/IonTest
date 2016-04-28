@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Ion.with(getApplicationContext())
-                        .load("https://www.facebook.com/")
+                        .load("http://10.0.3.2/android/get_timer.php")
                         .asString()
                         .setCallback(new FutureCallback<String>() {
                             @Override
